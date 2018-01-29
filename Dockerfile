@@ -12,5 +12,5 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
-RUN apk add --no-cache make git
+RUN apk add --no-cache curl make git
 
